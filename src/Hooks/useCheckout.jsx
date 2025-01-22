@@ -27,7 +27,7 @@ export default function useCheckout() {
               token: userToken,
             },
             params: {
-              url: window.location.origin,
+              url:  url: `${window.location.origin}/#/allOrders`,
             },
           }
         );
