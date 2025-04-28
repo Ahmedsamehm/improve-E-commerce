@@ -14,8 +14,8 @@ export default function Login() {
 
   const formik = useFormik({
     initialValues: {
-      email: "",
-      password: "",
+      email: "jack@example.com",
+      password: "ahmed2016!?",
     },
     onSubmit: async (values) => {
       await LoginUser(values, Navigate);
